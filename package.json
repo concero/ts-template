@@ -14,7 +14,7 @@
   },
   "scripts": {
     "lint": "eslint --config .eslint.config.mjs",
-    "format": "prettier --config .prettierrc.json --write **/*.{ts,json}",
+    "format": "prettier --config .prettierrc.json --write *.{ts,json} **/*.{ts,json} **/**/*.{ts,json}",
     "check-updates": "npx npm-check-updates"
   },
   "devDependencies": {
